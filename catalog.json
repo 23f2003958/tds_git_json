@@ -22,18 +22,5 @@
     {"id": "prod-e70fa7c8-016", "name": "Standard Item 16", "category": "sports", "price": 355.61, "stock": 150, "rating": 4.7},
     {"id": "prod-e70fa7c8-017", "name": "Pro Item 17", "category": "clothing", "price": 218.18, "stock": 183, "rating": 1.2}
   ],
- "aggregations": {
-    "clothing": {
-      "count": 6,
-      "inventoryValue": 241928.05
-    },
-    "electronics": {
-      "count": 3,
-      "inventoryValue": 122811.07
-    },
-    "books": {
-      "count": 1,
-      "inventoryValue": 24731.72
-    }
-  }
+ Error: aggregations must include category "home"
 }
